@@ -1,0 +1,42 @@
+@use '../abstracts/variables';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    &::before {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    &::after {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}
+
+ul {
+    list-style: none;
+
+    li {
+        list-style: none;
+    }
+}
+
+body {
+    background-color: variables.$white;
+}
+
+a,
+.link {
+    text-decoration: none;
+    color: variables.$d-blue;
+}
+
+body,
+main {
+    width: 100%;
+}

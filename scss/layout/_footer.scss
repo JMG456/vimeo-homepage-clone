@@ -1,0 +1,95 @@
+@use '../abstracts/variables'as a;
+
+body {
+
+    .footer {
+        width: 100%;
+        background-color: a.$d-blue;
+        height: 60vh;
+
+        .footer1 {
+            display: flex;
+            background-color: a.$d-blue;
+            margin: 0 20px;
+
+            svg {
+                fill: a.$white;
+                margin-top: 30px;
+                margin-right: 220px;
+            }
+
+            .list {
+                margin: 40px 50px;
+
+                h4 {
+                    color: a.$gray4;
+                    font-size: 14px;
+                    font-weight: 300;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    li {
+                        margin: 10px 0;
+
+                        a {
+                            color: a.$white;
+                            font-size: 14px;
+                            transition: color ease .3s;
+
+                            &:hover {
+                                color: a.$gray5;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .footer2 {
+            display: flex;
+            margin: 20px 20px;
+            background-color: a.$d-blue;
+
+            .left {
+                display: flex;
+
+                p {
+                    color: a.$white;
+                    font-size: 14px;
+                    margin: 0 10px;
+                }
+
+                a {
+                    color: a.$white;
+                    font-size: 14px;
+                    margin: 0 10px;
+                }
+
+                span {
+                    color: a.$white;
+                    margin: 0 5px;
+                }
+            }
+
+            .right {
+                margin-left: auto;
+
+                label {
+                    color: a.$white;
+                    font-size: 14px;
+                }
+
+                select {
+                    height: 25px;
+                    font-size: 16px;
+                    margin-right: 10px;
+
+                    option {
+                        font-size: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

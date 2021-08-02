@@ -1,0 +1,58 @@
+@use '../abstracts/variables'as a;
+
+button,
+.button {
+    border-radius: 3px;
+}
+
+.btn-m-white {
+    border: solid 1px rgb(184, 184, 184);
+    padding: 10px 25px;
+    background-color: a.$white;
+    color: a.$d-blue;
+    transition: border ease .3s;
+
+    &:hover {
+        border: solid 1px a.$d-blue;
+    }
+}
+
+.btn-l-white {
+    border: solid 1px rgb(184, 184, 184);
+    padding: 15px 60px;
+    background-color: a.$white;
+    color: a.$d-blue;
+    transition: border ease .3s;
+    border-radius: 5px;
+
+    &:hover {
+        border: solid 1px a.$d-blue;
+    }
+}
+
+.btn-l-clearblue {
+    border: solid 1px a.$c-blue;
+    padding: 15px 60px;
+    background-color: a.$c-blue;
+    color: a.$white;
+    transition: all ease .15s;
+    border-radius: 5px;
+    font-weight: 700;
+
+    &:hover {
+        background-color: a.$c-blue2;
+        border: solid 1px a.$c-blue2;
+    }
+}
+
+.btn-s-dark {
+    border: none;
+    padding: 11px 20px;
+    background-color: a.$d-blue;
+    color: a.$white;
+    transition: border ease .15s;
+
+    &:hover {
+        background-color: black;
+    }
+}

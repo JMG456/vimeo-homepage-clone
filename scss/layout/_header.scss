@@ -1,0 +1,40 @@
+header {
+    top: 8vh;
+    margin-top: 8vh;
+    display: grid;
+    place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+
+    h1 {
+        margin-bottom: 20px;
+        line-height: 100px;
+    }
+
+    h3 {
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    div {
+        margin-top: 25px;
+
+        a {
+            margin: 8px;
+            text-align: center;
+        }
+    }
+}

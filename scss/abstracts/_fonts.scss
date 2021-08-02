@@ -1,0 +1,73 @@
+@use '../abstracts/variables'as a;
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;700;800&display=swap');
+
+
+* {
+    font-family: 'Work-sans', sans-serif;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 100px;
+}
+
+h2 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: -1.5px;
+    line-height: 60px;
+}
+
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.links-l {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.links-m {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.links-s {
+    font-size: 17px;
+    font-weight: 300;
+}
+
+h4 {
+    font-size: 18px;
+    font-weight: 700;
+    color: a.$d-blue;
+}
+
+.text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info-text {
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.test {
+    font-size: 14px;
+    line-height: 20px;
+    color: a.$d-blue;
+}
+
+.name {
+    font-weight: 700;
+    font-size: 15px;
+    color: a.$d-blue;
+}
+
+.h2-2 {
+    font-size: 50px;
+}

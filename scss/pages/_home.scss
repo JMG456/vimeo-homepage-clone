@@ -1,0 +1,75 @@
+@use '../abstracts/variables'as a;
+
+.infocards {
+    svg {
+        transform: scale(3);
+        z-index: -1;
+    }
+
+    h3 {
+        margin: 20px;
+    }
+}
+
+.infotitle {
+    margin-top: 65px;
+}
+
+.testimonials {
+    background-color: a.$gray3;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.sponsors {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    margin: 100px auto;
+    align-items: center;
+
+    .svg-cont {
+        position: relative;
+        width: 150px;
+        height: 50px;
+        margin: 10px;
+
+        &:nth-child(3) {
+            position: relative;
+            width: 230px;
+            height: 50px;
+            margin: 5px;
+        }
+
+        &:nth-child(4) {
+            position: relative;
+            width: 80px;
+            height: 50px;
+            margin: 5px;
+        }
+
+        svg {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+            height: 100%;
+            fill: a.$c-blue3;
+        }
+    }
+}
+
+.trial {
+    background-color: a.$d-blue2;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: a.$white;
+
+    * {
+        margin: 10px;
+    }
+}
